@@ -8,7 +8,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Configuration
-#LOCAL_SERVER_URL = "http://localhost:5001"  # Update with ngrok or other URL if necessary
+#LOCAL_SERVER_URL = "http://localhost:5001"  # Update with ngrok or other URL if necessarsdy
 LOCAL_SERVER_URL = "http://192.168.50.123:5001"
 
 PORTFOLIO_FILE = "portfolio.json"
